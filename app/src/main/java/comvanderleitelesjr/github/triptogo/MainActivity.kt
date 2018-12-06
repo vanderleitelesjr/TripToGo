@@ -22,9 +22,9 @@ class MainActivity : AppCompatActivity() {
     }
 
     fun  calcular(sender:View){
-        var distancia = tbDistancia.text.toString()
-        var preco = tbPreco.text.toString()
-        var autonomia = tbAutonomia.text.toString()
+        val distancia = tbDistancia.text.toString()
+        val preco = tbPreco.text.toString()
+        val autonomia = tbAutonomia.text.toString()
 
         if (distancia == "" || preco == "" || autonomia == ""){
             if (sender == btCalcular){

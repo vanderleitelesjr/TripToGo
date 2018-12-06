@@ -7,4 +7,7 @@
     <string name="valor_padrao">0,00</string>
     <string name="calcular">Calcular</string>
     <string name="ida_e_volta">Ida e Volta</string>
+    <string name="km">Km</string>
+    <string name="r_por_litro">R$ por litro</string>
+    <string name="l_por_km">L por Km</string>
 </resources>
