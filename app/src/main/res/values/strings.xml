@@ -10,4 +10,5 @@
     <string name="km">Km</string>
     <string name="r_por_litro">R$ por litro</string>
     <string name="l_por_km">L por Km</string>
+    <string name="title_activity_maps">Maps</string>
 </resources>
