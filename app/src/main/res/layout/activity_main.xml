@@ -8,7 +8,8 @@
         tools:context=".MainActivity">
 
     <TextView
-            android:text="@string/distancia"
+            android:text="@string/distancia
+"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/textView" android:layout_marginTop="16dp"
@@ -104,7 +105,16 @@
             android:layout_width="35dp"
             android:layout_height="32dp"
             android:id="@+id/btMaps" android:background="@drawable/ic_map_24dp"
-            app:layout_constraintStart_toEndOf="@+id/tbDistancia" android:layout_marginStart="8dp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.0" app:layout_constraintBaseline_toBaselineOf="@+id/tbDistancia"/>
+            android:textColor="@android:color/darker_gray" android:textAlignment="center"
+            app:layout_constraintTop_toTopOf="@+id/tbDistancia" app:layout_constraintStart_toEndOf="@+id/tbDistancia"
+            app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="32dp"/>
+    <TextView
+            android:text="@string/maps"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView4"
+            android:textSize="12sp" android:textColor="@android:color/darker_gray"
+            app:layout_constraintTop_toBottomOf="@+id/btMaps"
+            app:layout_constraintStart_toStartOf="@+id/btMaps" app:layout_constraintEnd_toEndOf="@+id/btMaps"
+    />
 </android.support.constraint.ConstraintLayout>
