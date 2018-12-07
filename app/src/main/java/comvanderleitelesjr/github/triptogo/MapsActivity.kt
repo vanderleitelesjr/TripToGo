@@ -116,7 +116,7 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback, GoogleMap.OnMarker
         val originLng = lastLocation.longitude.toString()
         val destinationLat = destination.latLng.latitude.toString()
         val destinationLng = destination.latLng.longitude.toString()
-        val key = "AIzaSyBHFph72CPtRHk1_MfBfRUe9Cy4veQe2IE"
+        val key = getString(R.string.google_maps_key)
         val urlDirections = "https://maps.googleapis.com/maps/api/directions/json?origin=$originLat,$originLng&destination=$destinationLat,$destinationLng&key=$key"
 
         val directionsRequest = object : StringRequest(Request.Method.GET, urlDirections, Response.Listener<String> {
